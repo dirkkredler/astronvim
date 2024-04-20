@@ -4,7 +4,6 @@
   "LuaSnip": { "branch": "master", "commit": "03c8e67eb7293c404845b3982db895d59c0d1538" },
   "aerial.nvim": { "branch": "master", "commit": "399e276328be8242ccde01d90f6f6c619f7bb24f" },
   "alpha-nvim": { "branch": "main", "commit": "41283fb402713fc8b327e60907f74e46166f4cfd" },
-  "astrocommunity": { "branch": "main", "commit": "c211cc5f7d622d6f90f879329d59dd55f1932308" },
   "astrocore": { "branch": "main", "commit": "8939278d819ea4b35e5390157131e14a116091dc" },
   "astrolsp": { "branch": "main", "commit": "21629f447c574965399329a8dd925d9eeac82752" },
   "astrotheme": { "branch": "main", "commit": "8b316aa3ecd8c4206430379c0b1da0b4e7969ab9" },
@@ -56,7 +55,6 @@
   "telescope.nvim": { "branch": "master", "commit": "6312868392331c9c0f22725041f1ec2bef57c751" },
   "todo-comments.nvim": { "branch": "main", "commit": "a7e39ae9e74f2c8c6dc4eea6d40c3971ae84752d" },
   "toggleterm.nvim": { "branch": "main", "commit": "193786e0371e3286d3bc9aa0079da1cd41beaa62" },
-  "tokyonight.nvim": { "branch": "main", "commit": "9bf9ec53d5e87b025e2404069b71e7ebdc3a13e5" },
   "vim-illuminate": { "branch": "master", "commit": "305bf07b919ac526deb5193280379e2f8b599926" },
   "which-key.nvim": { "branch": "main", "commit": "ce741eb559c924d72e3a67d2189ad3771a231414" }
 }
