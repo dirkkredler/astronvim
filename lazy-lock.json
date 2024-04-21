@@ -1,10 +1,11 @@
 {
   "AstroNvim": { "branch": "main", "commit": "ee2e6a06a01ecd6985d7d3a24d8a79ff57e6f05d" },
+  "ChatGPT.nvim": { "branch": "main", "commit": "df53728e05129278d6ea26271ec086aa013bed90" },
   "Comment.nvim": { "branch": "master", "commit": "0236521ea582747b58869cb72f70ccfa967d2e89" },
   "LuaSnip": { "branch": "master", "commit": "03c8e67eb7293c404845b3982db895d59c0d1538" },
   "aerial.nvim": { "branch": "master", "commit": "399e276328be8242ccde01d90f6f6c619f7bb24f" },
   "alpha-nvim": { "branch": "main", "commit": "41283fb402713fc8b327e60907f74e46166f4cfd" },
-  "astrocommunity": { "branch": "main", "commit": "0c21abbf771e8a9960d79e75568bc17369219e5c" },
+  "astrocommunity": { "branch": "main", "commit": "41f7a6ada19c4cd60e985feb7d4e1da395e596a7" },
   "astrocore": { "branch": "main", "commit": "8939278d819ea4b35e5390157131e14a116091dc" },
   "astrolsp": { "branch": "main", "commit": "21629f447c574965399329a8dd925d9eeac82752" },
   "astrotheme": { "branch": "main", "commit": "8b316aa3ecd8c4206430379c0b1da0b4e7969ab9" },
@@ -58,6 +59,7 @@
   "telescope.nvim": { "branch": "master", "commit": "6312868392331c9c0f22725041f1ec2bef57c751" },
   "todo-comments.nvim": { "branch": "main", "commit": "a7e39ae9e74f2c8c6dc4eea6d40c3971ae84752d" },
   "toggleterm.nvim": { "branch": "main", "commit": "193786e0371e3286d3bc9aa0079da1cd41beaa62" },
+  "trouble.nvim": { "branch": "main", "commit": "b9cf677f20bb2faa2dacfa870b084e568dca9572" },
   "vim-illuminate": { "branch": "master", "commit": "305bf07b919ac526deb5193280379e2f8b599926" },
   "which-key.nvim": { "branch": "main", "commit": "ce741eb559c924d72e3a67d2189ad3771a231414" }
 }
