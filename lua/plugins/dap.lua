@@ -40,6 +40,24 @@ return {
         }
         require("mason-nvim-dap").default_setup(config)
       end,
+
+      coreclr = function(config)
+        config.adapters = {
+          type = "executable",
+          command = "/usr/local/netcoredbg",
+          args = { "--interpreter=vscode" },
+        }
+
+        config.configurations = {
+          {
+            type = "coreclr",
+            name = "launch - netcoredbg",
+            request = "launch",
+            program = function() return vim.fn.input("Path to dll", vim.fn.getcwd() .. "/bin/Debug/", "file") end,
+          },
+        }
+        require("mason-nvim-dap").default_setup(config)
+      end,
     },
   },
 }
