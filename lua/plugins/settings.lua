@@ -106,6 +106,9 @@ return {
   "AstroNvim/astrocore",
   ---@type AstroCoreOpts
   opts = {
+    features = {
+      notifications = false,
+    },
     options = {
       opt = {
         shiftwidth = 4,
