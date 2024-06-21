@@ -99,7 +99,7 @@ vim.cmd [[
 ]]
 
 vim.api.nvim_set_keymap("n", "go", ":execute 'silent! !firefox % &'<cr>", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<Leader>T", ":TroubleToggle<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<Leader>T", ":Trouble diagnostics<cr>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<C-a>", "<C-a>", { noremap = true, silent = true })
 
 ---@type LazySpec
