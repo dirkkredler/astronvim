@@ -35,6 +35,7 @@ return {
   { import = "astrocommunity.editing-support.mini-splitjoin" },
   { import = "astrocommunity.editing-support.nvim-treesitter-context" },
   { import = "astrocommunity.syntax.vim-easy-align" },
+  { import = "astrocommunity.file-explorer.oil-nvim" },
 
   -- import/override with your plugins folder
 }

@@ -1,6 +1,5 @@
 {
   "AstroNvim": { "branch": "main", "commit": "fe703e5a2ecd2d2caecded3acc9fd9fd2aaa554e" },
-  "ChatGPT.nvim": { "branch": "main", "commit": "f081338f07216a46d3915ce46c1fcb083bcb5016" },
   "Comment.nvim": { "branch": "master", "commit": "e30b7f2008e52442154b66f7c519bfd2f1e32acb" },
   "LuaSnip": { "branch": "master", "commit": "03c8e67eb7293c404845b3982db895d59c0d1538" },
   "SchemaStore.nvim": { "branch": "main", "commit": "73594484edfa33ec9301e42c6c7a4af25c48266f" },
@@ -66,6 +65,7 @@
   "nvim-vtsls": { "branch": "main", "commit": "45c6dfea9f83a126e9bfc5dd63430562b3f8af16" },
   "nvim-web-devicons": { "branch": "master", "commit": "c0cfc1738361b5da1cd0a962dd6f774cc444f856" },
   "nvim-window-picker": { "branch": "main", "commit": "41cfaa428577c53552200a404ae9b3a0b5719706" },
+  "oil.nvim": { "branch": "master", "commit": "10fbfdd37b6904c0776c5db1a27ab47eecba335e" },
   "package-info.nvim": { "branch": "master", "commit": "45acce5b12ce824332d8000cc2c91805b6710446" },
   "phpactor": { "branch": "master", "commit": "ac99b4d8831eb5a249a2b1788cbb5b64a4a1c61c" },
   "plenary.nvim": { "branch": "master", "commit": "a3e3bc82a3f95c5ed0d7201546d5d2c19b20d683" },
