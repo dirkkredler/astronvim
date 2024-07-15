@@ -7,8 +7,7 @@ return {
         -- Disable ChatGPT 3.5
         {
           name = "ChatGPT3-5",
-          chat = false, -- just name would suffice
-          command = false, -- just name would suffice
+          disable = true,
         },
         {
           name = "ChatGPT4",
