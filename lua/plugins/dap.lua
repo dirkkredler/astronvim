@@ -13,10 +13,28 @@ return {
           {
             type = "php",
             request = "launch",
-            name = "Listen for Xdebug",
+            name = "Listen for Xdebug /var/www",
             port = 9003,
             pathMappings = {
               ["/var/www"] = "${workspaceFolder}",
+            },
+          },
+          {
+            type = "php",
+            request = "launch",
+            name = "Listen for Xdebug /var/www/html",
+            port = 9003,
+            pathMappings = {
+              ["/var/www/html"] = "${workspaceFolder}",
+            },
+          },
+          {
+            type = "php",
+            request = "launch",
+            name = "Listen for Xdebug for T3EXT: JobOfferList",
+            port = 9003,
+            pathMappings = {
+              ["/var/www/job_offer_list"] = "${workspaceFolder}",
             },
           },
           {
