@@ -1,5 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- Customize Mason plugins
 
 ---@type LazySpec
@@ -12,8 +10,23 @@ return {
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
         "lua_ls",
+        "codespell",
+        "misspell",
+        "cspell",
         -- add more arguments for adding more language servers
       })
+      local cspell = require "cspell"
+      local sources = {
+        -- spell check
+        b.diagnostics.codespell,
+        b.diagnostics.misspell,
+        -- cspell
+        cspell.diagnostics.with {
+          -- Set the severity to HINT for unknown words
+          diagnostics_postprocess = function(diagnostic) diagnostic.severity = vim.diagnostic.severity["HINT"] end,
+        },
+        cspell.code_actions,
+      }
     end,
   },
   -- use mason-null-ls to configure Formatters/Linter installation for null-ls sources
@@ -25,6 +38,7 @@ return {
       opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
         "prettier",
         "stylua",
+        "codespell",
         -- add more arguments for adding more null-ls sources
       })
     end,
