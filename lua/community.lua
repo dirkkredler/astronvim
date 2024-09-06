@@ -37,6 +37,7 @@ return {
   { import = "astrocommunity.editing-support.nvim-treesitter-context" },
   { import = "astrocommunity.syntax.vim-easy-align" },
   { import = "astrocommunity.file-explorer.oil-nvim" },
+  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
 
   -- import/override with your plugins folder
 }
