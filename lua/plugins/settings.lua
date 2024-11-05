@@ -102,6 +102,11 @@ vim.api.nvim_set_keymap("n", "go", ":execute 'silent! !firefox % &'<cr>", { nore
 vim.api.nvim_set_keymap("n", "<Leader>T", ":Trouble diagnostics<cr>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<C-a>", "<C-a>", { noremap = true, silent = true })
 
+vim.cmd [[
+  autocmd VimLeave * set guicursor= | call chansend(v:stderr, "\x1b[ q")
+]]
+
+
 ---@type LazySpec
 return {
   "AstroNvim/astrocore",
